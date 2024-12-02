@@ -1,0 +1,62 @@
+.register-image{
+    width:100%;
+    height:70vh;
+}
+.search {
+    height: 70px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.search-input {
+    color: black; /* Text color */
+    border: 1px solid black;
+    outline: 0;
+    background: none;
+    padding: 0 10px;
+    height: 40px; /* Ensure consistent height */
+    width: 350px; /* Set the width of the input */
+    font-size: 21px;
+    font-weight: 300;
+    caret-color: #536bf6;
+    line-height: 40px; /* Match the line-height with the input height */
+    transition: width 0.4s linear;
+}
+
+.search:hover .search-input {
+    /* Optionally you can add hover effects for the input if needed */
+}
+
+.search-icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #536bf6;
+    /* margin-left: 10px;  - Add space between the input and icon */
+    cursor: pointer;
+}
+
+.search:hover > .search-icon {
+    background: #1A237E;
+    color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+}
+/* star */
+span {
+    font-size: 20px;
+    color: gold; /* or any color of your choice */
+  }
+
+  span.half-star {
+    background: linear-gradient(to right, gold 50%, lightgray 50%); /* For half star */
+    color: transparent;
+    -webkit-background-clip: text;
+  }
